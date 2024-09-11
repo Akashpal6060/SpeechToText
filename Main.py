@@ -3,14 +3,6 @@ from pydub import AudioSegment
 import speech_recognition as sr
 from fpdf import FPDF
 
-# # List of audio files
-# audio_files = [
-#     "/home/ninad/Akash/Audios/06_Aug.wav",
-#     "/home/ninad/Akash/Audios/13_Aug.wav",
-#     "/home/ninad/Akash/Audios/16_Aug.wav",
-#     "/home/ninad/Akash/Audios/23_Aug.wav"
-# ]
-
 # Folder path containing the audio files
 folder_path = "D:/git_tutorial/SpeechToText/Audio_Files"
 
