@@ -19,10 +19,7 @@ Before running the script, make sure to install the necessary dependencies.
 
 # Folder Structure
 
-2. Folder Structure
-
-# SpeechToText/
-- │
+### SpeechToText/
 - ├── Audio_Files/       # Folder to upload .wav audio files
 - ├── AudioChunks/       # Temporary folder where audio chunks are saved (generated during processing)
 - ├── Output_files/      # Output folder where transcriptions are saved
@@ -37,15 +34,17 @@ Before running the script, make sure to install the necessary dependencies.
   ```bash
    pip install -r requirements.txt
 
-4. Place Your Audio Files
+
+# Place Your Audio Files
 Put all your .wav files inside the Audio_Files folder located in the project directory.
 
-5. Running the Application
+# Running the Application
  
   ```bash
    python Main.py
 
-6. The script will:
+
+# The script will:
     - Process each .wav file in the Audio_Files directory.
     - Split the audio into chunks (for more efficient processing).
     - Convert the audio chunks into text.
