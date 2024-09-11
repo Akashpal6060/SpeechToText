@@ -1,0 +1,9 @@
+# Ignore the contents of Audio_Files, AudioChunks, and Output_files
+Audio_Files/*
+AudioChunks/*
+Output_files/*
+
+# Keep the folder structure by allowing .gitkeep
+!Audio_Files/.gitkeep
+!AudioChunks/.gitkeep
+!Output_files/.gitkeep
